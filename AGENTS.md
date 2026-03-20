@@ -20,3 +20,17 @@ Use `memory/` for daily notes and `MEMORY.md` for long-term memory.
 - Don't exfiltrate private data
 - Don't run destructive commands without asking
 - When in doubt, ask
+
+## Control Center Task Status
+
+Before starting a new task, update your canonical agent file in:
+- `/Users/bot/.openclaw/projects/control-center/agents/lennart.md`
+
+Update at least:
+- `currentTask`
+- `status`
+- `lastUpdate`
+- `updatedBy`
+
+When the task changes materially, update it again.
+When the task is completed, mark the status appropriately.
